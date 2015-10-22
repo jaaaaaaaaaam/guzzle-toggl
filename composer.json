@@ -1,14 +1,18 @@
 {
-    "name": "ajt/guzzle-toggl",
+    "name": "jamosaur/guzzle-toggl",
     "type": "library",
-    "description": "Toggl API client written on top of Guzzle PHP.",
-    "keywords": ["toggl", "ajt", "api", "guzzle"],
-    "homepage": "http://github.com/arendjantetteroo/guzzle-toggl",
+    "description": "Toggl API client written on top of Guzzle PHP. Forked from AJT",
+    "keywords": ["toggl", "jamosaur", "api", "guzzle"],
+    "homepage": "http://github.com/jaaaaaaaaaam/guzzle-toggl",
     "license": "MIT",
     "authors": [
         {
             "name": "Arend-Jan Tetteroo",
             "homepage": "http://www.arendjantetteroo.nl"
+        },
+        {
+            "name": "James Wallen-Jones",
+            "homepage": "https://github.com/jaaaaaaaaaam/"
         }
     ],
     "require": {
@@ -20,6 +24,6 @@
         }
     },
     "autoload": {
-        "psr-0": {"AJT": "src/"}
+        "psr-0": {"Jamosaur": "src/"}
     }
 }

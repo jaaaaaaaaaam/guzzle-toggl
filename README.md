@@ -26,7 +26,7 @@ More information on the key and authentication available at https://github.com/t
 
 require dirname(__FILE__).'/../vendor/autoload.php';
 
-use AJT\Toggl\TogglClient;
+use Jamosaur\Toggl\TogglClient;
 $toggl_token = ''; // Fill in your token here
 $toggl_client = TogglClient::factory(array('api_key' => $toggl_token));
 

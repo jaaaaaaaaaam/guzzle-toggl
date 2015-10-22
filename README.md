@@ -1,7 +1,7 @@
 guzzle-toggl
 ============
 
-A Toggl API client based on Guzzle PHP
+A Toggl API client based on Guzzle PHP. Forked from AJT.
 
 ## Features
 
@@ -14,7 +14,7 @@ A Toggl API client based on Guzzle PHP
 The library is available through Composer, so its easy to get it. 
 Simply run this to install it:
 
-    composer require ajt/guzzle-toggl
+    composer require jamosaur/guzzle-toggl
 
 ## Usage
     

@@ -42,7 +42,7 @@
                     "description": "string: on/off, on for descending and off for ascending order"
                 }
             }
-        }
+        },
         "Weekly": {
             "httpMethod": "GET",
             "uri": "weekly",

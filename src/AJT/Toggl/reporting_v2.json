@@ -3,6 +3,46 @@
     "apiVersion": "v2",
     "description": "Toggl Reports API v2",
     "operations": {
+        "Project": {
+            "httpMethod": "GET",
+            "uri": "project",
+            "summary": "Project dashboard returns at-a glance information for a single project. This feature is only available with Toggl pro.",
+            "parameters": {
+                "user_agent": {
+                    "location": "query",
+                    "type": "string",
+                    "required": true,
+                    "description": "string, required, email, or other way to contact client application developer"
+                },
+                "workspace_id": {
+                    "location": "query",
+                    "type": "integer",
+                    "required": true,
+                    "description": "integer, required. The workspace which data you want to access."
+                },
+                "project_id": {
+                    "location": "query",
+                    "type": "integer",
+                    "required": true,
+                    "description": "integer, required. The project whose data you want to access"
+                },
+                "page": {
+                    "location": "query",
+                    "type": "integer",
+                    "description": "integer, optional. number of 'tasks_page' you want to fetch"
+                },
+                "order_field": {
+                    "location": "query",
+                    "type": "string",
+                    "description": "string: name/assignee/duration/billable_amount/estimated_seconds"
+                },
+                "order_desc": {
+                    "location": "query",
+                    "type": "string",
+                    "description": "string: on/off, on for descending and off for ascending order"
+                }
+            }
+        }
         "Weekly": {
             "httpMethod": "GET",
             "uri": "weekly",
